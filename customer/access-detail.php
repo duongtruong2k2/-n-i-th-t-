@@ -11,7 +11,7 @@ if(isset($_SESSION['email'])){
 ?>
 
    <div class="jumbotron bg-secondary">
-      <h1 class="text-center text-white mt-5">Account Detail</h1>
+      <h1 class="text-center text-white mt-5">Chi tiết</h1>
     </div>
 
    <div class="container mt-5">
@@ -22,10 +22,9 @@ if(isset($_SESSION['email'])){
         </div>
 
         <div class="col-md-9">
-          <h3>Access Details:</h3><hr>
-          <h6>CHANGE PASSWORD</h6>
-           <p>If you wish to change the password to access your account, please provide
-            the following information:</p>
+          <h3>Chi tiết</h3><hr>
+          <h6>THAY ĐỔI MẬT KHẨU</h6>
+           <p>Nếu bạn muốn thay đổi mật khẩu để truy cập tài khoản của mình, vui lòng cung cấp Các thông tin sau:</p>
           
             
               <?php
@@ -101,18 +100,18 @@ if(isset($_SESSION['email'])){
             <form  method="post" class="w-50">
 
                 <div class="form-group">
-                  <label>Old Password: *</label>
-                  <input type="text" name="old_pass" placeholder="Old Password" class="form-control" >
+                  <label>Mật khẩu cũ: *</label>
+                  <input type="text" name="old_pass" placeholder="Mật khẩu cũ: *" class="form-control" >
                </div>
 
                 <div class="form-group">
-                  <label>New Password: *</label>
-                  <input type="text" name="new_pass" placeholder="New Password" class="form-control" >
+                  <label>Mật khẩu mới: *</label>
+                  <input type="text" name="new_pass" placeholder="Mật khẩu mới: *" class="form-control" >
                 </div>
 
                 <div class="form-group">
-                  <label>Cofirm Password: *</label>
-                  <input type="text" name="conf_pass" placeholder="Confirm Password"  class="form-control" >
+                  <label>Mật khẩu xác nhận: *</label>
+                  <input type="text" name="conf_pass" placeholder="Mật khẩu xác nhận: *"  class="form-control" >
               </div>
 
               <div class="form-group text-center mt-4">

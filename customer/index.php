@@ -6,7 +6,7 @@ if(!isset($_SESSION['email'])){
 ?>
    
     <div class="jumbotron bg-secondary">
-        <h1 class="text-center text-white mt-5">Account</h1>
+        <h1 class="text-center text-white mt-5">Tài khoản</h1>
     </div>
      
      <div class="container mt-5 mb-5">
@@ -18,18 +18,12 @@ if(!isset($_SESSION['email'])){
         </div>
 
          <div class="col-md-9">
-          <h3>My Account:</h3><hr>
+          <h3>Tài khoản của tôi </h3><hr>
 
           <a href="orders.php"> <h6 class="text-primary">ORDERS</h6></a>
-           <p>Check the status and information regarding your online orders</p>
+           <p>Kiểm tra trạng thái và thông tin liên quan đến đơn đặt hàng trực tuyến của bạn</p>
 
-           <a href="personal-detail.php"> <h6 class="text-primary">PERSONAL DETAILS</h6></a>
-           <p>You can access and modify your personal details (name, billing address, telephone number, etc.) in order to speed up your
-              future purchases and notify us of changes in your contact details.</p>
-
-           <a href="access-detail.php"> <h6 class="text-primary">ACCESS DETAILS</h6></a>
-           <p>You can change your access details (password ).</p>
-
+         
          </div>
        </div>
 

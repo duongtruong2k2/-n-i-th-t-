@@ -82,7 +82,7 @@ if(isset($_SESSION['email'])){
               ?>
           </div>
 
-           <h1 class="text-center">Latest Products</h1>
+           <h1 class="text-center">Sản phẩm mới nhất</h1>
   
            <div class="row mt-4">
                 
@@ -114,7 +114,7 @@ if(isset($_SESSION['email'])){
                                       <i class="far fa-shopping-cart"></i>
                                   </a>
                                   <a href="product-detail.php?product_id=<?php echo $pid;?>" class="btn btn-default btn-sm hover-effect text-dark" >
-                                       <i class="far fa-info-circle"></i> View Details
+                                       <i class="far fa-info-circle"></i> Chi tiết
                                   </a>
 
                                   </div>
@@ -139,7 +139,7 @@ if(isset($_SESSION['email'])){
       <!---We deal with-->
       <section class="bg-white">
          <div class="container pt-4 pb-5">
-           <h1 class="text-center pt-4">We Deal With </h1>
+           <h1 class="text-center pt-4">Blog </h1>
 
            <!---Row 1-->
            <div class="row mt-5">
@@ -203,7 +203,7 @@ if(isset($_SESSION['email'])){
       <!---How to Shop -->
       <section class="back-gray pt-4 pb-4">
         <div class="container">
-              <h2 class="text-center">How It Does Work</h2>
+              <h2 class="text-center">Nó hoạt động như thế nào</h2>
               <div class="row">
                 
                 <!--choose product card-->

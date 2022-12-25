@@ -4,12 +4,8 @@ include('include/header.php'); ?>
         <div class="container sign-in-up">
           <div class="row mb-5" >
             <div class="col-md-6" >
-              <h1>Online Furniture Store</h1>
-              <p>An online furniture shop that allows users to check for various furniture available at the online 
-                store and purchase online. The project consists of list of furniture products displayed in various
-                 models and designs. The user may browse through these products as per categories. If the user likes 
-                 a product he may add it to his shopping cart. Once user wishes to checkout he must 
-                register on the site first. He can then login using same id password next time.</p>
+              <h1>Cửa hàng nội thất trực tuyến</h1>
+              <p>Một cửa hàng đồ nội thất trực tuyến cho phép người dùng kiểm tra các đồ nội thất khác nhau có sẵn tại cửa hàng trực tuyến và mua hàng trực tuyến. Dự án bao gồm danh mục các sản phẩm nội thất được trưng bày đa dạng về mẫu mã và kiểu dáng. Người dùng có thể duyệt qua các sản phẩm này theo danh mục. Nếu người dùng thích một sản phẩm, họ có thể thêm sản phẩm đó vào giỏ hàng của mình. Khi người dùng muốn thanh toán, anh ta phải đăng ký trên trang web trước. Sau đó anh ta có thể đăng nhập bằng mật khẩu id tương tự vào lần sau.</p>
             </div>
             
             

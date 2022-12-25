@@ -5,7 +5,7 @@ if(!isset($_SESSION['email'])){
 }
 ?>
     <div class="jumbotron bg-secondary">
-        <h1 class="text-center text-white mt-5">My Orders</h1>
+        <h1 class="text-center text-white mt-5">Đơn đặt hàng của tôi</h1>
     </div>
      
      <div class="container mt-5 mb-5">
@@ -27,19 +27,19 @@ if(!isset($_SESSION['email'])){
           if(mysqli_num_rows($run) > 0){
 
                   if(isset($_SESSION['message'])){
-                    echo $_SESSION['message'];
+                   
                   }
           ?>      
                    <table class="table table-responsive table-hover ">
                       <thead class="thead-light">
                           <tr>
                               <th>#Invoice</th>
-                              <th width="120px">Product image</th>
-                              <th>Product name</th>
-                              <th>Product quantity</th>
-                              <th>Total Price (Pkr)</th>
-                              <th>Date</th>
-                              <th width="120px">Status</th>
+                              <th width="120px"> image</th>
+                              <th>Tên sản phẩm</th>
+                              <th>Số lượng sản phẩm</th>
+                              <th>Tổng giá</th>
+                              <th>Ngày</th>
+                              <th width="120px">Tình trạng</th>
                               
                           </tr>
                       </thead>

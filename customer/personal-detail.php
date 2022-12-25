@@ -53,7 +53,7 @@ if(isset($_SESSION['email'])){
 
 
 <div class="jumbotron bg-secondary">
-   <h1 class="text-center text-white mt-5">Personal Detail</h1>
+   <h1 class="text-center text-white mt-5"> Thông tin cá nhân</h1>
  </div>
 
 <div class="container mt-5">
@@ -64,11 +64,9 @@ if(isset($_SESSION['email'])){
      </div>
 
      <div class="col-md-9">
-       <h3>Personal Details:</h3><hr>
+       <h3>Thông tin cá nhân</h3><hr>
        <h6>CHANGE PERSONAL DETAILS</h6>
-        <p>You can access and modify your personal details (name, billing address, telephone number, etc.) 
-          in order to facilitate your future
-           purchases and to notify us of any change in your contact details.</p>
+        <p>Bạn có thể truy cập và sửa đổi thông tin cá nhân của mình (tên, địa chỉ thanh toán, số điện thoại, v.v.) để tạo điều kiện cho tương lai của bạn mua hàng và thông báo cho chúng tôi về bất kỳ thay đổi nào trong chi tiết liên hệ của bạn..</p>
           
           <?php 
           

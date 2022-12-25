@@ -22,7 +22,7 @@ if(!isset($_SESSION['email'])){
                     <i class="fad fa-users fa-6x text-primary"></i>
                   </div>
                   <div class="col-md-11 text-left mt-4">
-                      <h1 class="ml-5 display-4 font-weight-normal">View All Customers:</h1>
+                      <h1 class="ml-5 display-4 font-weight-normal"> Khách hàng</h1>
                   </div>
                 </div>
                  <hr>

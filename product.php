@@ -69,8 +69,8 @@
                       While($cat_row = mysqli_fetch_array($cat_run)){
                         $cid      = $cat_row['id'];
                         $cat_name = ucfirst($cat_row['category']);
-                        $font     = $cat_row['fontawesome-icon'];
-                        echo " <a href='product.php?cat_id=$cid' class='list-group-item'><i class='fal $font ml-2'></i> $cat_name </a>";
+                      
+                        echo " <a href='product.php?cat_id=$cid' class='list-group-item'><i class='fal ml-2'></i> $cat_name </a>";
                       }
 
                     }

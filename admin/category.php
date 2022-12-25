@@ -30,7 +30,7 @@ if(!isset($_SESSION['email'])){
                     <i class="fad fa-th-list fa-6x text-primary"></i>
                   </div>
                   <div class="col-md-11 text-left mt-4">
-                  <h1 class="ml-5 display-4 font-weight-normal">View Furniture Categories:</h1>
+                  <h1 class="ml-5 display-4 font-weight-normal">Thể loại</h1>
                   </div>
                 </div>
               <hr>
@@ -39,8 +39,8 @@ if(!isset($_SESSION['email'])){
                     <?php
                         if(isset($_POST['submit'])){
                            $category = $_POST['category'];
-                           $fontawesome = $_POST['fonts'];
-                            $query = "INSERT INTO `categories`(`category`, `fontawesome-icon`) VALUES ('$category',' $fontawesome')";
+                          
+                            $query = "INSERT INTO `categories`(`category`) VALUES ('$category')";
                              $run = mysqli_query($con,$query);
                           
                         } 
@@ -52,9 +52,7 @@ if(!isset($_SESSION['email'])){
                         <input type="text" name="category" class="form-control" placeholder="Add Category">
                        </div>
 
-                       <div class="col-lg-6">
-                         <input type="text" name="fonts" class="form-control" placeholder="Simply Add fa-example ">
-                       </div>
+                      
                      </div>
                    </div>
                     <div class="col-lg-4">
@@ -92,7 +90,7 @@ if(!isset($_SESSION['email'])){
                    <tr>
                     
                     <th>ID</th>
-                    <th>Font Awesome icon</th>
+                    
                     <th>Categories</th>
                     <th class="text-center">Action</th>
                     
@@ -103,12 +101,12 @@ if(!isset($_SESSION['email'])){
                 
                     while($row = mysqli_fetch_array($run)){
                         $id = $row['id'];
-                        $font_awesome = $row['fontawesome-icon'];
+                      
                         $category = ucfirst($row['category']);
                       ?>
                      <tr>                     
                         <td><?php echo $id;?></td>
-                        <td><i class="text-primary <?php echo 'fad '.$font_awesome;?>"></i></td>
+                    
                         <td><?php echo $category;?></td>
                         <td class="text-center">
                         <a  href="editcat.php?edit=<?php echo $id; ?>"><button type="button" class="btn btn-primary">Edit</button>

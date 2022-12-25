@@ -5,13 +5,11 @@
             header('location: signin.php');
           }
 
+        
         if(isset($_GET['del'])){
             $del   = $_GET['del'];
-            $query = "DELETE FROM `furniture_product` WHERE pid = $del";
-            if(mysqli_query($con,$query)){
-                echo "<script> alert('This product has been deleted');</script>";
-        
-            }
+            $query = "DELETE FROM furniture_product WHERE pid = $del";
+            $run   = mysqli_query($con,$query);
         }
 
         if(isset($_GET['status'])){
@@ -33,7 +31,7 @@
                  </div> 
 
                  <div class="col-md-7">
-                   <h2 class="display-4 ml-2 mt-4">View Furniture Products:</h2>
+                   <h2 class="display-4 ml-2 mt-4">Xem các sản phẩm nội thất</h2>
                  </div> 
                  <div class="col-md-4">
                     <div class="font-weight-bold mt-5 text-right" style="font-size:24px;">
@@ -64,9 +62,9 @@
                           <?php
 
                                        if(isset($status)){
-                                           $pr_query = "SELECT * FROM furniture_product fp INNER JOIN categories cat ON fp.category = cat.id WHERE status = '$status' order by pid";
+                                           $pr_query = "SELECT * FROM furniture_product fp INNER JOIN categories cat ON fp.category = cat.id WHERE status = '$status'  limit 5";
                                        } else{
-                                           $pr_query = "SELECT * FROM furniture_product fp INNER JOIN categories cat ON fp.category = cat.id order by pid";
+                                           $pr_query = "SELECT * FROM furniture_product fp INNER JOIN categories cat ON fp.category = cat.id order by pid limit 15" ;
                                        }
                                         $pr_run   = mysqli_query($con,$pr_query);
                                         

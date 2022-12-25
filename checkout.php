@@ -81,7 +81,7 @@
                   <div class="row">
                       <!--shopping cart-->
                     <div class="col-md-6 p-3">
-                    <h5>Shipping Detail</h5><hr>
+                    <h5>Chi tiết vận chuyển</h5><hr>
                    
                     <div class="form-group">
                       <label for="email"><b>Email:</b></label>
@@ -132,7 +132,7 @@
                <div class="col-md-6 p-3">
                  <!-- cart-->
                  <table class="table table-responsive table-hover ">
-                 <h5>Order Detail</h5><hr>
+                 <h5>Chi tiết đặt hàng</h5><hr>
                       
                   <tbody>
                  <?php
@@ -215,9 +215,9 @@
              
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-6">
-                        <h6>Subtotal</h6>
-                        <h6>Shipping</h6>
-                        <h5 class="font-weight-bold">Total</h5>
+                        <h6>Tổng </h6>
+                        <h6>Đang chuyển hàng</h6>
+                        <h5 class="font-weight-bold">Tổng cộng</h5>
                         
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">

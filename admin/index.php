@@ -31,7 +31,7 @@ if(isset($_SESSION['email'])){
                    $run   = mysqli_query($con,$query);
                    $num_new_orders = mysqli_num_rows($run);
                  ?>
-                <div class="mr-5">  <span style="font-size:24px;"><?php echo $num_new_orders;?></span> Pending Orders</div>
+                <div class="mr-5">  <span style="font-size:24px;"><?php echo $num_new_orders;?></span>  đơn đặt hàng đang chờ xử lý</div>
 
               </div>
               <a class="card-footer text-white clearfix small z-1" href="pending_furniture_pro.php">
@@ -54,7 +54,7 @@ if(isset($_SESSION['email'])){
                    $run   = mysqli_query($con,$query);
                    $num_delivered_orders = mysqli_num_rows($run);
                  ?> 
-                  <span style="font-size:24px;"><?php echo $num_delivered_orders;?> </span> Delivered Orders</div>
+                  <span style="font-size:24px;"><?php echo $num_delivered_orders;?> </span> đơn hàng đã giao</div>
               </div>
               <a class="card-footer text-white clearfix small z-1" href="delivered_furniture_pro.php">
                 <span class="float-left">View Details</span>
@@ -76,7 +76,7 @@ if(isset($_SESSION['email'])){
                    $run   = mysqli_query($con,$query);
                    $num_customer = mysqli_num_rows($run);
                  ?>
-                   <span style="font-size:24px;"><?php echo $num_customer;?></span> Active Customers
+                   <span style="font-size:24px;"><?php echo $num_customer;?></span>  khách hàng 
                   </div>
               </div>
               <a class="card-footer text-white clearfix small z-1" href="customers.php">

@@ -39,11 +39,11 @@
                   <table class="table table-responsive table-hover ">
                       <thead class="thead-light">
                           <tr>
-                              <th colspan="2">Product Detail</th>
-                              <th>Quantity</th>
-                              <th>Price (Pkr)</th>
-                              <th>Total</th>
-                              <th colspan="4">Actions(Edit/Del)</th>
+                              <th colspan="2">Product</th>
+                              <th>Số lượng</th>
+                              <th>Giá (Pkr)</th>
+                              <th>Tổng cộng</th>
+                              <th colspan="4">Hành động (Chỉnh sửa / Del)</th>
                               <th colspan="4"></th>
                           </tr>
                       </thead>
@@ -130,9 +130,10 @@
                <h5>Order Detail</h5><hr>
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-6">
-                        <h6>Subtotal</h6>
-                        <h6>Shipping</h6>
-                        <h5 class="font-weight-bold">Total</h5>
+                        <h6>Tổng</h6>
+                        <h6>Đang chuyển hàng</h6>
+                        <h5 class="font-weight-bold">Tổng cộng
+</h5>
                         
                     </div>
                     <div class="col-md-6 col-sm-6 col-6">
@@ -152,12 +153,12 @@
                   <div class="row">
                      <div class="col-md-5 col-6 text-left">
                        <a href="product.php">
-                        <input class="btn btn-primary pt-2 pb-2" type="button" style="font-size:12px;" value="Continue Shopping">
+                        <input class="btn btn-primary pt-2 pb-2" type="button" style="font-size:12px;" value="Tiếp Tục Mua Sắm">
                         </a>
                      </div>
                      <div class="col-md-4 col-6 text-right">
                          <a href="checkout.php">
-                            <input type="button" name="proceed" value="Proceed checkout" style="font-size:12px;" class="btn btn-success pt-2 pb-2">
+                            <input type="button" name="proceed" value="Thanh Toán" style="font-size:12px;" class="btn btn-success pt-2 pb-2">
                          </a>
                      </div>
                   </div>

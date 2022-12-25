@@ -32,7 +32,7 @@ include_once('include/dbcon.php');?>
        <!--header ---> 
              <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                <a href="" class="navbar-brand"> 
-                   <img src="../img/favicon.png" width="40px" height="40px"> Online <sapn class="font-weight-bold">Furniture</sapn> Shop
+                   <img src="img/favicon.png" width="40px" height="40px"> Online <sapn class="font-weight-bold">Furniture</sapn> Shop
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapisblenav" aria-controls="collapsiblenav">
                  <span class="navbar-toggler-icon"></span>

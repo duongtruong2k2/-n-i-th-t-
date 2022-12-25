@@ -23,7 +23,7 @@ if(isset($_SESSION['email'])){
                     <i class="fad fa-user-cog fa-6x text-primary"></i>
                   </div>
                   <div class="col-md-11 text-left mt-4">
-                  <h1 class="ml-5 display-4 font-weight-normal">Profile Setting:</h1>
+                  <h1 class="ml-5 display-4 font-weight-normal">Cài đặt thông tin</h1>
                   </div>
                 </div>
               <hr>
