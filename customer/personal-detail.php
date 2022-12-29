@@ -13,6 +13,7 @@ if(isset($_SESSION['email'])){
     $run   = mysqli_query($con,$query);
     $row = mysqli_fetch_array($run);
 
+    
     $cust_name = $row['cust_name'];
     $cust_email = $row['cust_email'];
     $cust_add = $row['cust_add'];
