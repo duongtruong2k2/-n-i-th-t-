@@ -10,6 +10,8 @@ if(!isset($_SESSION['email'])){
 
 <div class="container-fluid mt-2">
      <div class="row">
+
+     
            <div class="col-md-3 col-lg-3">
             <?php require_once('include/sidebar.php'); ?>
         </div>
