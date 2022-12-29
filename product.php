@@ -17,6 +17,7 @@
   $pages = ceil($count_rows / $required_pro);
   $product_start = ($page_id - 1) * $required_pro;  
 
+  
 
   if(isset($_SESSION['id'])){
     $custid = $_SESSION['id'];
