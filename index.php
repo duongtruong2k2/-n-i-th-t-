@@ -15,6 +15,7 @@ if(isset($_SESSION['email'])){
         header('location:index.php');
       }
     }
+    
     if(mysqli_num_rows($run_cart) > 0){
       while($row = mysqli_fetch_array($run_cart)){
         $exist_pro_id = $row['product_id'];
