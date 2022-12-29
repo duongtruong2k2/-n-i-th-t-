@@ -13,6 +13,7 @@
                   <h1 class="text-center mt-5">Register Account</h1>
                   
                   
+                  
                   <form method="post" class="mt-5 p-3">
                     
                     <?php 
