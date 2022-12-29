@@ -13,6 +13,7 @@
                 if(isset($msg)){
                   echo $msg;
                  }
+                 
               ?>
           </div>
         </center>
