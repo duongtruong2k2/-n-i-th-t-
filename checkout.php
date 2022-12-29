@@ -11,6 +11,7 @@
       $customer_id    = $_SESSION['id'];
       $customer_email = $_SESSION['email']; 
       $customer_name  = $_SESSION['name'];
+      
       $customer_add   = $_SESSION['add'];  
       $customer_city  = $_SESSION['city']; 
       $customer_pcode =   $_SESSION['pcode'];
