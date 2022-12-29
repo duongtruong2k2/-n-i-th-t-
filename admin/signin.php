@@ -83,6 +83,7 @@
                             </div>";
                   
                       }
+                    
                       ?>
                 <div class="form-group">
                  <label for="email">Email address</label>
@@ -99,6 +100,7 @@
                 <div class="text-center">
                   <a class="small" href="#">Forgot password?</a></div>
 
+                  
               </form>
             </div>
           </div>
