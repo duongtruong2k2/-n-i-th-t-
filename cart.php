@@ -17,6 +17,7 @@
              if(mysqli_query($con,$del_query)){
                 header("location:cart.php");
               }
+              
             }
             //end delete Query
             //cart Query
