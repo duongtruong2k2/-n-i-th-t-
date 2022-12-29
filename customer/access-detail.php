@@ -8,6 +8,7 @@ if(!isset($_SESSION['email'])){
 if(isset($_SESSION['email'])){
   $customer_id    = $_SESSION['id'];
 }
+
 ?>
 
    <div class="jumbotron bg-secondary">
