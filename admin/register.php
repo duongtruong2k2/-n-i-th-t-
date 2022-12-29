@@ -113,6 +113,7 @@
         <a href="../login.php">Sign in</a>
     </p>
 
+    
         </form>
 
           </div>
