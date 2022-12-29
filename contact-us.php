@@ -14,6 +14,7 @@
             <div class="col-md-6">
                   <form action="" method="" class=" p-3">
                     <div class="form-group">
+                      
                       <input type="text" name="Fullname" placeholder="Full Name" class="form-control">
                      </div>
                      
