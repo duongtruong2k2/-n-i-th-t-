@@ -9,6 +9,8 @@ if(!isset($_SESSION['email'])){
             <?php require_once('include/sidebar.php'); ?>
            </div>
 
+           
+
         <?php 
          if(!isset($_SESSION['email']))
          {
